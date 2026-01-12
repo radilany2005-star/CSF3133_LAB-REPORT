@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Japan | Travel Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="side-nav">
+        <div class="nav-logo">CHINA</div>
+        <a href="#home"><i class="fas fa-torii-gate"></i> Home</a>
+        <a href="#newsletter"><i class="fas fa-envelope"></i> Newsletter</a>
+        <a href="#gallery"><i class="fas fa-camera"></i> Gallery</a>
+        <a href="#author"><i class="fas fa-user"></i> The Blogger</a>
+        <a href="#itinerary"><i class="fas fa-map-marked-alt"></i> Progress</a>
+        <a href="#tips"><i class="fas fa-lightbulb"></i> Travel Tips</a>
+    </nav>
+
+    <div class="main-content">
+        <header id="home" class="hero-section">
+            <img src="china-mount.jpg" alt="Mount China" class="hero-bg">
+            <div class="overlay-text">
+                <h1>Discover the Land of the Rising Sun</h1>
+                <p>From the red lights of Guzhen to the temples of Zhongshan.</p>
+            </div>
+        </header>
+
+        <section id="newsletter" class="form-section">
+            <div class="form-overlay-container">
+                <img src="china-night.jpg" alt="China Nightlife">
+                <div class="form-card">
+                    <h2>Get Travel Deals</h2>
+                    <p>Sign up for my Japan itinerary guides!</p>
+                    <form>
+                        <input type="email" placeholder="Your Email Address" required>
+                        <input type="password" placeholder="Create Password" required>
+                        <button type="submit">Join the Club</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="slideshow-section">
+            <h2 class="section-title">Must-Visit Destinations</h2>
+            <div class="slideshow-container">
+                <div class="slide fade">
+                    <img src="china-temple.jpg" alt="China Temple">
+                    <div class="slide-caption">Donglin: The Heart of Tradition</div>
+                </div>
+                <div class="slide fade">
+                    <img src="china-food.webp" alt="China Street Food">
+                    <div class="slide-caption">Beijing: China's Kitchen</div>
+                </div>
+                <div class="slide fade">
+                    <img src="china-panda.jpg" alt="Panda Park">
+                    <div class="slide-caption">Chengdu: Meet the Local Panda</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="author" class="profile-section">
+            <div class="profile-card">
+                <div class="card-header">Travel Enthusiast</div>
+                <img src="author-photo.jpeg" alt="Travel Blogger" class="profile-image">
+                <h3 class="profile-name">Radilan Yaakub</h3>
+                <p class="profile-title">Assigment Project Lab 7</p>
+                <p class="profile-education">Bachelor of Computer Science (Software Engineering) with Honor</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+                <button class="contact-btn">Work With Me</button>
+            </div>
+        </section>
+
+        <section id="itinerary" class="progress-section">
+            <h2>Spring 2024 Trip Planning</h2>
+            <p>I am currently mapping out the Shanghai route!</p>
+            <div class="progress-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            <button id="increase-progress">Research Next City</button>
+        </section>
+
+        <section id="tips" class="collapsible-section">
+            <h2 class="section-title">China Travel Essentials</h2>
+            <button class="collapsible">What is the best time to visit? <i class="fas fa-chevron-down"></i></button>
+            <div class="content">
+                <p>Spring (Late March to Early May) for Autumn (November) for the vibrant red maple leaves are the most beautiful times.</p>
+            </div>
+            <button class="collapsible">Do I need a JR Pass? <i class="fas fa-chevron-down"></i></button>
+            <div class="content">
+                <p>It depends on your route! If you are traveling between multiple cities like Beijing, Shanghai and Guilin, it often saves you a lot of money.</p>
+            </div>
+        </section>
+    </div>
+
+    <script src="lab7.js"></script>
+</body>
+</html>
